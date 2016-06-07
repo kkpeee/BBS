@@ -1,0 +1,270 @@
+body {
+	background-color: #eee;;
+	padding: 5px;
+
+}
+
+.test3  { text-decoration:underline;
+}
+
+.p10 {
+  padding: 0 10px;
+}
+
+
+
+.box100 {
+  width: 100%;
+  	margin-top: 50spx;
+	margin-bottom: 5px;
+	padding: 5px 5px;
+}
+
+.box50 {
+  width: 50%;
+}
+
+.width100,
+.width50 {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.profile .profile-image {
+	font-family: Meiryo;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	padding: 30px;
+	height: 100%;
+	width: 1200;;
+	margin: 20px auto;
+	border: 3px solid red;
+}
+
+.sample800 {
+	font-weight: 900;
+font-size: 17px;
+}
+
+.main-contents {
+	background-color: #eee;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px 0px;
+}
+
+.namecategory {
+	background-color: #eee;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 3px 0px;
+}
+
+.contribution {
+	margin-left: 40px;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 3px 0px;
+}
+
+.contributions {
+	background-color: #eee;
+	margin-left: 40px;
+	font-size: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 3px 0px;
+}
+
+.sred {
+	font-size: 18px;
+}
+
+.header {
+	text-align: right;
+		font-family: Meiryo;
+}
+
+.profile {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	height: 100px;
+		font-family: Meiryo;
+}
+
+.profile .profile-image {
+	float: left;
+		font-family: Meiryo;
+}
+
+.profile .name h2 {
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 36px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+		font-family: Meiryo;
+}
+
+a.profile .account {
+	font-size: 13px;
+	line-height: 22px;
+		font-family: Meiryo;
+}
+
+.profile .description {
+	font-size: 13px;
+	line-height: 22px;
+		font-family: Meiryo;
+}
+
+.form-area {
+	margin-top: 00px;
+	margin-right: 00px;
+	margin-bottom: 00px;
+	margin-left: 00px;
+	background-color: #ECECFF;
+		font-family: Meiryo;
+}
+
+.message {
+	font-family: Meiryo;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	padding: 5px;
+	height: 50%;
+	width: 50vh;
+	margin: 5px auto;
+	border: 3px solid #000000;
+}
+
+.setting {
+	font-family: Meiryo;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	padding: 5px;
+	height: 50%;
+	width: 30vh;
+	margin: 5px auto;
+	border: 3px solid #000000;
+}
+
+.surround {
+	font-family: Meiryo;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: white;
+	padding: 5px;
+	height: 50%;
+	width: 50vh;
+	margin: 5px auto;
+	border: 3px solid #000000;
+
+.message-icon .icon {
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	float: left;
+		font-family: Meiryo;
+}
+
+.message-icon .text {
+	height: 40px;
+		font-family: Meiryo;
+}
+
+.message-icon .message {
+	margin-left: 60px;
+		font-family: Meiryo;
+}
+
+.message-icon .account-name {
+	margin-top: 1px;
+	margin-bottom: 5px;
+		font-family: Meiryo;
+}
+
+.message-icon .account-name .account {
+	font-weight: bold;
+		font-family: Meiryo;
+}
+
+.account-name {
+
+	font-weight: lighter;
+	color: naby;
+		font-family: Meiryo;
+}
+
+.account-name2 {
+
+	font-weight: lighter;
+	color: naby;
+	font: small-caption;
+		font-family: Meiryo;
+
+}
+
+.ngo {
+
+	font-weight: lighter;
+	color: naby;
+	font: small-caption;
+		font-family: Meiryo;
+
+}
+
+.message .date {
+	font-weight: lighter;
+	color: gray;
+	font: small-caption;
+		font-family: Meiryo;
+}
+
+.copyright {
+	width: 250px;
+	margin: 0 auto;
+		font-family: Meiryo;
+}
+
+label {
+	display: block;
+		font-family: Meiryo;
+}
+
+.errorMessages {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	color: red;
+		font-family: Meiryo;
+}
