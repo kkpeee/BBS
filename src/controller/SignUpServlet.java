@@ -121,26 +121,15 @@ public class SignUpServlet extends HttpServlet {
 			messages.add("ログインIDは半角英数字6文字以上20文字以下で入力してください");
 		}
 
-		if(branch == 0){
-			messages.add("所属支店を選択してください");
-		}
-
-		if(department == 0){
-			messages.add("所属部署・役職を選択してください");
-		}
-
 		if(StringUtils.isBlank(password) == true
 				|| StringUtils.isBlank(password_Confirm) == true){
 			messages.add("パスワードを入力してください");
 		}
 
-		if( password.length() < 6){
-			messages.add("パスワードは6文字以上で入力してください");
-		}
-
 		if( password.length() > 255){
 			messages.add("パスワードは255文字以内で入力してください");
 		}
+
 
 		if(password.getBytes().length > password.length()
 				|| password_Confirm.getBytes().length > password_Confirm.length()
@@ -148,6 +137,14 @@ public class SignUpServlet extends HttpServlet {
 			messages.add("パスワードは半角文字6文字以上255文字以下で入力してください");
 		} else if(!password.equals(password_Confirm)){
 			messages.add("入力されたパスワードが一致しません");
+		}
+
+		if(branch == 0){
+			messages.add("所属支店を選択してください");
+		}
+
+		if(department == 0){
+			messages.add("所属部署・役職を選択してください");
 		}
 
 		if(messages.size() == 0){

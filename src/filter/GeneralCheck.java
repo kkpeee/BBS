@@ -33,7 +33,7 @@ public class GeneralCheck implements Filter{
 
 		int departmentId = user.getDepartmentId();
 		int branchId = user.getBranchId();
-		if(departmentId != 1 && branchId != 1){
+		if(departmentId != 1 && branchId != 1 || departmentId == 2 && branchId == 1){
 			List<String> messages = new ArrayList<String>();
 			messages.add("本社総務部ではないため、ユーザー権限がありません");
 			session.setAttribute("errorMessages", messages);
